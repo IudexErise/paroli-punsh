@@ -1,0 +1,51 @@
+.section_about-us {
+  display: flex;
+  padding: 190px 0;
+  justify-content: space-between;
+}
+
+.section_about-us p {
+  max-width: 520px;
+  margin-right: 55px;
+}
+
+.section_concerts_table {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 190px;
+}
+
+.section_concerts_table_line {
+  height: 140px;
+  border-top: 1px solid #909090;
+  border-bottom: 1px solid #909090;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.section_concerts_table_line p {
+  width: 160px;
+}
+
+.section_concerts_table_line span {
+  width: 55px;
+}
+
+.section_concerts_table_line_button_buy {
+  width: 254px;
+  height: 58px;
+  border: 1px solid #FFFFFF;
+  background: none;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.section_concerts_table_line_button_buy:hover {
+  background: #FFFFFF;
+  color: #282828;
+}
