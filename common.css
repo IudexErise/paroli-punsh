@@ -1,0 +1,10 @@
+body, h1, p {
+  margin: 0;
+}
+
+.text {
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
