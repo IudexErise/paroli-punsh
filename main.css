@@ -70,6 +70,7 @@
 
 .slider {
   position: relative;
+  padding-bottom: 190px;
 }
 
 .slider img{
@@ -82,6 +83,7 @@
   top: 50%;
   width: 28px;
   height: 28px;
+  cursor: pointer;
 }
 
 .arrow-right {
@@ -90,9 +92,92 @@
   top: 50%;
   width: 28px;
   height: 28px;
+  cursor: pointer;
 }
 
-.apple {
-  justify-content: center;
+.section_facts_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  align-items: center;
+  padding-bottom: 190px;
+}
+
+.section_facts_container_text {
+  max-width: 570px;
+}
+
+.section_facts_container_text h2 {
+  margin-bottom: 20px;
+}
+
+.section_reviews {
+  padding-bottom: 190px;
+}
+
+.section_reviews h2 {
+  padding-bottom: 30px;
+}
+
+.section_reviews_container {
   display: flex;
+  justify-content: space-between;
+}
+
+.section_reviews_container p {
+  margin-bottom: 5px;
+}
+
+.section_reviews_container span {
+  margin-bottom: 20px;
+}
+
+.section_reviews_container_item {
+  display: flex;
+  background-color: rgb(144, 144, 144, 0.1);
+  height: 230px;
+  max-width: 570px;
+}
+
+.section_reviews_container_item img{
+  margin: 25px 20px 0 25px;
+  width: 120px;
+  height: 120px;
+}
+
+.section_reviews_container_item_text {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 25px 0 25px;
+}
+
+.section_podcast_container {
+  padding-top: 40px;
+  padding-bottom: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_podcast_container p {
+  max-width: 570px;
+  margin-bottom: 25px;
+}
+
+.section_podcast_container_button {
+  width: 254px;
+  height: 58px;
+  border: 1px solid #FFFFFF;
+  background: none;
+  background-color: #FFFFFF;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #282828;
+}
+
+.section_podcast_container_button:hover {
+  background-color: #282828;
+  color: #FFFFFF;
 }
