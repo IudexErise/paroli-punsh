@@ -49,3 +49,50 @@
   background: #FFFFFF;
   color: #282828;
 }
+
+.section_gallery_container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.section_gallery_container a {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider img{
+  max-width: 98.5vw;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+.apple {
+  justify-content: center;
+  display: flex;
+}

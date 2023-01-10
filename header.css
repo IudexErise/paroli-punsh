@@ -1,5 +1,6 @@
 header {
   background-image: url(./assets/header.jpg);
+  background-size: cover;
   height: 900px;
 }
 
