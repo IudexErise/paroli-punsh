@@ -8,6 +8,7 @@
   <link href="./common.css" rel="stylesheet" type="text/css">
   <link href="./header.css" rel="stylesheet" type="text/css">
   <link href="./main.css" rel="stylesheet" type="text/css">
+  <link href="./footer.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -24,7 +25,7 @@
       <div class="links">
         <a href="#section_concerts">Концерты</a>
         <a href="#section_gallery">Фото и видео</a>
-        <a href="section_podcast">Подкаст с солистом</a>
+        <a href="#section_podcast">Подкаст с солистом</a>
       </div>
     </div>
 
@@ -159,8 +160,37 @@
 
   </main>
 
-  <footer>
-    
+  <footer class="footer">
+
+    <div class="footer_left">
+      <img src="./assets/logo.svg"></img>
+      <div class="footer_left_container">
+        <div class="footer_left_container_links">
+          <p>Навигация</p>
+          <a href="#section_concerts" class="text_weak">Концерты</a>
+          <a href="#section_gallery" class="text_weak">Фото и видео</a>
+          <a href="#section_podcast" class="text_weak">Подкаст с солистом</a>
+        </div>
+        <div class="footer_left_container_links">
+          <p>Контакты</p>
+          <a href="" class="text_weak">Вконтакте</a>
+          <a href="" class="text_weak">Телеграм</a>
+          <a href="" class="text_weak">Инстаграм</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer_right">
+      <h3>Узнавай о концертах в твоем городе первым!</h3>
+      <div class="footer_right_email-subscription">
+        <input placeholder="E-mail" type="email"></input>
+        <button><img src="./assets/send-arrow.svg"></button>
+      </div>
+      <div class="footer_right_terms">
+        <input type="checkbox" id="email">
+        <label for="email" class="text_weak">Даю согласие на обработку <a>Персональных данных</a> </label> 
+      </div>      
+    </div>
+  
   </footer>
 
 </body>
