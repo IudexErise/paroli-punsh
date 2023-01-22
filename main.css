@@ -1,3 +1,5 @@
+/* SECTION ABOUT US*/
+
 .section_about-us {
   display: flex;
   padding: 190px 0;
@@ -6,8 +8,19 @@
 
 .section_about-us p {
   max-width: 520px;
-  margin-right: 55px;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 321px) {
+  .section_about-us {
+    padding: 120px 0;
+  }
+
+  .section_about-us p {
+    max-width: 290px;
+  }
+}
+
+/* SECTION CONCERTS*/
 
 .section_concerts_table {
   display: flex;
@@ -24,8 +37,8 @@
   display: flex;
 }
 
-.section_concerts_table_line p {
-  width: 160px;
+.section_concerts_table_line .text_strong {
+  width: 100px;
 }
 
 .section_concerts_table_line span {
@@ -49,6 +62,30 @@
   background: #FFFFFF;
   color: #282828;
 }
+
+
+@media screen and (max-width: 1200px) and (min-width: 321px) {
+  .section_concerts_table {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 120px;
+  }
+  
+  .section_concerts_table_line p {
+    width: 140px;
+  }
+  
+  .section_concerts_table_line span {
+    width: 42px;
+  }
+
+  .section_concerts_table_line_button_buy {
+    width: 156px;
+    height: 58px;
+  }
+}
+
+/* SECTION GALLERY*/
 
 .section_gallery_container {
   display: flex;
