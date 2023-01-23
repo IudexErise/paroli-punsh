@@ -18,6 +18,11 @@
   .section_about-us p {
     max-width: 290px;
   }
+
+  .headline-container {
+    width: 600px;
+    margin: 400px auto 0 auto;
+  }
 }
 
 /* SECTION CONCERTS*/
@@ -71,7 +76,11 @@
     padding: 30px 0 120px;
   }
   
-  .section_concerts_table_line p {
+  .section_concerts_table_line .text_strong p {
+    width: 100px;
+  }
+
+  .section_concerts_table_line .text_weak p {
     width: 140px;
   }
   
@@ -133,12 +142,30 @@
 }
 
 @media screen and (max-width: 1200px) and (min-width: 321px) {
+  .section_gallery_container {
+    width: 600px;
+  }
+
+  .section_gallery_container a {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
   .arrow-left {
     top: 33%;
   }
   
   .arrow-right {
     top: 33%;
+  }
+
+  .slider {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider img{
+    max-width: 600px;
   }
 }
 
@@ -228,6 +255,10 @@
     padding-bottom: 120px;
   }
 
+  .section_reviews_container span {
+    margin-bottom: 5px;
+  }
+
   .section_reviews_container_item {
       width: 290px;
       height: 210px;
@@ -240,13 +271,15 @@
   }
 
   .section_reviews_container_item p, span{
-    width: 14px;
-    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
   }
 
   .section_reviews_container_item_text {
     margin: 20px 0;
   }
+
+  
 }
 
 /* SECTION PODCAST */
@@ -280,4 +313,24 @@
 .section_podcast_container_button:hover {
   background-color: #282828;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 321px) {
+  .section_podcast img {
+    width: 600px;
+    height: 300px;
+  }
+
+  .section_podcast_container {
+    padding-bottom: 120px;
+  }
+
+  .section_podcast_container p {
+    max-width: 290px;
+  }
+
+  .section_podcast_container_button {
+    width: 290px;
+    height: 60px;
+  }
 }

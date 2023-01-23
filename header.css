@@ -1,6 +1,6 @@
   header {
     background-image: url(./assets/header.jpg);
-    background-size: cover;
+    background-size: auto;
     height: 900px;
   }
 
@@ -37,7 +37,7 @@
   }
 
   
-@media screen and (max-width: 1200px) and (min-width: 321px) {
+@media screen and (max-width: 1200px) {
 
   .navbar {
     margin: 0 auto;
@@ -63,3 +63,4 @@
   }
 
 }
+
