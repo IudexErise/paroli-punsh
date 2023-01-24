@@ -1,10 +1,13 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 390px;
 }
 
 .footer_left {
-  padding: 80px 0 100px 200px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   background-color: rgb(42, 42, 42);
 }
 
@@ -23,12 +26,12 @@
 
 .footer_left_container {
   display: flex;
+  gap: 140px;
 }
 
 .footer_left_container_links {
   display: flex;
   flex-direction: column;
-  margin-right: 140px;
 }
 
 .footer_left_container_links p {
@@ -38,7 +41,9 @@
 }
 
 .footer_right {
-  padding: 74px 0 0 180px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   background-color: rgb(32, 32, 32);
 }
 
