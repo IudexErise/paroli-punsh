@@ -89,6 +89,10 @@ h3 {
     font-size: 18px;
     line-height: 23px;
   }
+
+  .inactive {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px) {
