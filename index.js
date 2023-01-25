@@ -17,6 +17,9 @@ sideMenuLinks.forEach((link) => {
   link.addEventListener('click', removeSideMenu)
 });
 
+
+
+
 let emailSend = document.querySelector('.footer_right_email-subscription_button');
 let emailInput = document.querySelector('.footer_right_email-subscription_input');
 let emailInputError = document.querySelector('.footer_right_email-subscription_error-message');
