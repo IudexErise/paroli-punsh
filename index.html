@@ -193,12 +193,13 @@
       <div class="footer_contents">
         <h3>Узнавай о концертах в твоем городе первым!</h3>
         <div class="footer_right_email-subscription">
-          <input placeholder="E-mail" type="email"></input>
-          <button><img src="./assets/send-arrow.svg"></button>
+          <input placeholder="E-mail" type="email" class="footer_right_email-subscription_input" required></input>
+          <button class="footer_right_email-subscription_button"><img src="./assets/send-arrow.svg"></button>
         </div>
+        <div class="footer_right_email-subscription_error-message"></div>
         <div class="footer_right_terms">
-          <input type="checkbox" id="email">
-          <label for="email" class="text_weak">Даю согласие на обработку <a>Персональных данных</a> </label>
+          <input type="checkbox" id="email_checkbox" required>
+          <label for="email_checkbox" class="text_weak">Даю согласие на обработку <a>Персональных данных</a> </label>
         </div>
       </div>
     </div>
