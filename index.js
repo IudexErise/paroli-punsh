@@ -52,11 +52,11 @@ const buttonPreviousImage = document.querySelector('.section_gallery_slider_arro
 const buttonNextImage = document.querySelector('.section_gallery_slider_arrow-right');
 
 const images = [
-  "../assets/slider1.jpg",
-  "../assets/slider2.jpg",
-  "../assets/slider3.jpg",
-  "../assets/slider4.jpg",
-  "../assets/slider5.jpg"
+  "./assets/slider1.jpg",
+  "./assets/slider2.jpg",
+  "./assets/slider3.jpg",
+  "./assets/slider4.jpg",
+  "./assets/slider5.jpg"
 ];
 
 let counter = 0;
