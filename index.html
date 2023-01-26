@@ -92,28 +92,32 @@
 
     <section class="section_gallery" id="section_gallery">
       <div class="section_gallery_container">
-        <h2>Галлерея</h2>
+        <h2>Галерея</h2>
         <div>
-          <a>Фото</a>
-          <a>Видео</a>
+          <a id="show-photos">Фото</a>
+          <a id="show-video">Видео</a>
         </div>
       </div>
     </section>
 
-    <div class="slider">
-      <img src="./assets/slider1.png">
-      <!-- <img src="./assets/arrow-left.svg" class="arrow-left">
-      <img src="./assets/arrow-right.svg" class="arrow-right"> -->
+    <div class="section_gallery_slider">
+      <img src="./assets/arrow-left.svg" class="section_gallery_slider_arrow-left">
+      <img src="./assets/arrow-right.svg" class="section_gallery_slider_arrow-right"> 
     </div>
+
+    <div class="section_gallery_video inactive">
+      <video src="" controls>
+      </video>
+    </div>    
 
     <section class="section_facts">
       <div class="section_facts_container">
         <img src="./assets/gorshok.png">
         <div class="section_facts_container_text">
           <h2>Почему Король и Шут?</h2>
-          <p>Нам близка эта группа. Причем, всё получилось крайне спонтанно. Лет в 15-17 я прише на концерт КиШа и попал
+          <p>Нам близка эта группа. Причем, всё получилось крайне спонтанно. Лет в 15-17 я пришел на концерт КиШа и попал
             в
-            гриммёрку. Я пришел на концерт и просто “отъехал”. Я не был панком, но у меня перещелкнуло. Так, наверное, и
+            гримёрку. Я пришел на концерт и просто “отъехал”. Я не был панком, но у меня перещелкнуло. Так, наверное, и
             родилась та самая любовь к панку. </p>
         </div>
       </div>
@@ -156,12 +160,14 @@
     </section>
 
     <section class="section_podcast" id="section_podcast">
-      <img src="./assets/podcast.png">
+      <div class="section_podcast_image"></div>
       <div class="section_podcast_container">
         <h2>Подкаст с солистом</h2>
         <div>
           <p>Вещаем о нашем творчестве, о нашем старте и о нашем отношении к жизни. Только на Яндекс.Музыке!</p>
-          <button class="section_podcast_container_button">Послушать подкаст</button>
+          <a href="https://music.yandex.ru/album/13793873/track/79548079" target="_blank">
+            <button class="section_podcast_container_button">Послушать подкаст</button>
+          </a>
         </div>
       </div>
     </section>
@@ -182,9 +188,9 @@
           </div>
           <div class="footer_left_container_links">
             <p>Контакты</p>
-            <a href="" class="text_weak">Вконтакте</a>
-            <a href="" class="text_weak">Телеграм</a>
-            <a href="" class="text_weak">Инстаграм</a>
+            <a href="https://vk.com/club179692875" target="_blank" class="text_weak">Вконтакте</a>
+            <a href="https://web.telegram.org/" target="_blank" class="text_weak">Телеграм</a>
+            <a href="https://www.instagram.com/paroli.punsh/" target="_blank" class="text_weak">Инстаграм</a>
           </div>
         </div>
       </div>
