@@ -179,9 +179,10 @@
   width: 1200px;
 }
 
-.section_gallery_video video {  
+.section_gallery_video iframe {  
   width: 1200px;
   height: 600px;
+  border: none;
 }
 
 
@@ -206,7 +207,7 @@
     width: 600px;
   }
   
-  .section_gallery_video video {  
+  .section_gallery_video iframe {  
     width: 600px;
     height: 300px;
   }
@@ -228,7 +229,7 @@
     width: 300px;
   }
   
-  .section_gallery_video video {  
+  .section_gallery_video iframe {  
     width: 300px;
     height: 150px;
   }
